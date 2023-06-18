@@ -9,7 +9,7 @@ html,
 body {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
-  color: #f9faf8;
+  /* color: #f9faf8; */
   margin: 0;
   padding: 0;
 }
@@ -70,7 +70,7 @@ h3 > a {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 10px 0px;
+  padding: 30px 0px;
   margin-top: 40px;
 }
 
@@ -112,4 +112,49 @@ h3 > a {
 
 .img-section {
   flex: 1 1 200px;
+}
+
+img.hero-banner {
+  border-radius: 8px;
+}
+/* gallery  */
+
+.gallery-section {
+  margin: 0 60px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card > .img-description {
+  margin: 0;
+  padding: 0;
+  padding: 8px 24px;
+}
+
+.card > img {
+  height: 350px;
+  width: 350px;
+  border-radius: 8px;
 }
