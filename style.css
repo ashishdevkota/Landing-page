@@ -43,9 +43,17 @@ a {
   text-decoration: none;
 }
 
-h3 > a {
+#logo > a {
   color: #f9faf8;
+  background: #f9faf8;
   font-size: 24px;
+  color: #3882f6;
+}
+
+#logo > a > span {
+  background-color: #3882f6;
+  padding: 4px;
+  color: #fff;
 }
 
 .nav {
@@ -111,6 +119,8 @@ h3 > a {
 
 .btn > a {
   color: #f9faf8;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .img-section {
@@ -220,4 +230,16 @@ span.author {
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 18px;
+}
+
+/* footer  */
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.footer p {
+  padding: 40px;
+  text-align: center;
+  margin: 0;
 }
